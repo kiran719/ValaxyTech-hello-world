@@ -1,3 +1,4 @@
+
 pipeline { 
 agent any 
     stages { 
@@ -22,10 +23,7 @@ agent any
                    echo 'Deployin on QA environment'
                } 
         }
-        stage ('Monitor') { 
- 
-        }
+        
  
     }           
  }
-
